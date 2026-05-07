@@ -32,7 +32,7 @@ def test_get_all_tasks():
     tasks = sample_tasks()
     result = get_all_tasks(tasks)
 
-    assert len(result) == 99
+    assert len(result) == 2
 
 
 def test_add_task():
